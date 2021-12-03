@@ -3,7 +3,6 @@
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import RenderTrigger from './components/RenderTrigger.vue'
-import SetupScript from './components/SetupScript.vue'
 </script>
 
 <template>
@@ -11,8 +10,6 @@ import SetupScript from './components/SetupScript.vue'
   <HelloWorld msg="Hello Vue 3 + Vite" />
   <hr />
   <RenderTrigger />
-  <hr />
-  <SetupScript />
 </template>
 
 <style>

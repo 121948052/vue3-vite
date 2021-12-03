@@ -1,13 +1,19 @@
 <template>
   <div class="about-content">
-    <button v-on:click="addToCart">Add to cart</button>
-    <p>Cart({{ cart }})</p>
+    <z-button
+      type="primary"
+      @z-click="addToCart"
+    >
+      添加
+    </z-button>Cart({{ cart }})
   </div>
 </template>
 
 <script>
+import ZButton from './ZButton.vue'
 export default {
   name: 'RenderTrigger',
+  components: { ZButton },
   data() {
     return {
       cart: 0
