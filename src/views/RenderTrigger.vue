@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import ZButton from './ZButton.vue'
+import ZButton from '@/components/ZButton.vue'
 export default {
   name: 'RenderTrigger',
   components: { ZButton },
